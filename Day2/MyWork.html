@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Day wise Assignments </title>
+    <style>
+        .head{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        .assign-list{
+            padding: 20px;
+        }
+        .foot{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        #amol{
+          color: yellow;  
+        }
+        .main-content{
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="head" id="head">
+        <h1>Welcome to my First Web Page</h1>
+        <h3>AMOL BHARSAKLE  | PRN.210544581012</h3>
+    </div>
+
+    <div class="main-contain">
+
+        <div class="assi-table">
+            <table border="5" cellpadding="10" width="60%" align="center" style="margin-top: 50px;">
+                <caption><h2>Table Practices</h2></caption>
+                <thead>
+                    <tr> <th>No.</th> <th> Topic </th> <th>link</th> </tr> 
+                </thead>
+
+                <tbody>
+                    <tr align="center"> <td>1</td> <td>Basic Table</td> <td> <a href="#basic-table">See</a> </td> </tr>
+                    <tr align="center"> <td>2</td> <td>Row Sapn</td> <td> <a href="#row-span">See</a> </td> </tr>
+                    <tr align="center"> <td>3</td> <td>Col Span</td> <td> <a href="#col-span">See</a> </td> </tr>
+
+                    <tr align="center"> <td>4</td> <td>Forms</td> <td> <a href="#forms">See</a> </td> </tr>
+
+                    <tr align="center"> <td>5</td> <td>Radio & Checkbox</td> <td> <a href="#radio-checkbox">See</a> </td> </tr>
+                    <tr align="center"> <td>6</td> <td>Select one or many</td> <td> <a href="#select">See</a> </td> </tr>
+                    <tr align="center"> <td>7</td> <td>TextAria</td> <td> <a href="#text-area">See</a> </td> </tr>
+                        
+                </tbody>
+
+            </table>
+            <br/>
+
+            <table width="100px" border="2" cellpadding="10" id="basic-table" align="center">
+                <caption><h2>Basic table</h2></caption>
+                <thead>
+                    <tr> <th>col1</th> <th>col2</th> <th>col 3</th></tr>  
+                </thead>
+                <tbody>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                </tbody>
+            </table>
+<hr/>
+            <table width="100px" border="2" cellpadding="10" id="row-span" align="center">
+                <caption><h2>Row Span</h2></caption>
+                <thead>
+                    <tr> <th></th> <th>col1</th> <th>col2</th> <th>col 3</th></tr>  
+                </thead>
+                <tbody>
+                    <tr> <th rowspan="6">Row Span</th><td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                </tbody>
+            </table>
+            <hr/>
+            <table width="100px" border="2" cellpadding="10" id="col-span" align="center">
+                <caption><h2>Col Span</h2></caption>
+                <thead>
+                    <tr> <th>col1</th> <th>col2</th> <th>col 3</th></tr>  
+                </thead>
+                <tbody>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                    <tr> <td>value</td> <td>value</td> <td>value</td> </tr>
+                </tbody>
+            </table>
+
+            <hr/><br><br><br><br>
+
+
+
+        </div>
+
+        <div id="forms" >
+
+            <fieldset style="width: 500px;">
+                <legend>From</legend>
+                <form action="" method="GET" onsubmit="return false" align="left">
+
+                    <label for="First Name">First Name</label>
+                    <input type="text" name="fname" id="First Name" placeholder="First Name" autofocus required>
+                    <br>
+                    <br>
+
+                    <label for="LastName">Last Name</label>
+                    <input type="text" name="lname" id="LastName" placeholder="Last Name" required>
+                    <br>
+                    <br>
+
+                    <label for="E-mail">E-Mail</label> 
+                    <input type="email" name="emai" id="E-mail"  placeholder="E-mail" required>
+                    <br>
+                    <br>
+
+                   
+
+                    <label for="Password">Password</label>
+                    <input type="text" name="Password" id="Password" placeholder="Password" required minlength="4">
+
+                    <br>
+                    <br>
+
+
+                    <button>Go to server</button>
+                    <input type="submit" /> 
+
+                    <input type="reset" />
+
+                </form>
+            </fieldset>
+            
+            <hr><br><br><br><br>
+
+            <fieldset style="width: 500px;" id="radio-checkbox">
+                <legend>RADIO and CHECK BOX</legend>
+                <form action="" method="GET">
+                    <label for="Gender">Gender</label>
+                    <input type="radio" name="gender" value="Male">
+                    <input type="radio" name="gender" value="feMale">
+                    <br>
+                    <br>
+
+                    <label for="Hobbies">Hobbies</label>
+                    <input type="checkbox" name="hobbies" value="Playing">
+                    <input type="checkbox" name="hobbies" value="Traveling">
+                    <input type="checkbox" name="hobbies" value="Coding">
+                    <br>
+                    <br>
+
+                    <button>SUBMIT</button>
+                </form>
+            </fieldset>
+            
+            <hr><br><br><br><br>
+
+            <fieldset style="width: 500px;" id="select">
+                <legend>Select</legend>
+                <form action="" method="GET">
+                    <label for="Gender">SELECT GENDER</label>
+                    <select name="gender" id="gender">
+                        <option disabled selected> ---> Select <--- </option>
+                        <option value="Male"> Male </option>
+                        <option value="FeMale"> Female </option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="Gender">SELECT HOBBBIES</label>
+                    <select name="Hobbies[]" id="Hibbies" multiple>
+                        <option disabled selected> ---> Select Multiple <--- </option>
+                        <option value="playing"> Playing </option>
+                        <option value="travelling"> Travelling </option>
+                        <option value="Coding">Coding</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <button>SUBMIT</button>
+                </form>
+            </fieldset>
+            <hr> <br><br><br><br>
+            <fieldset style="width: 500px;" id="text-area">
+                <legend>Text Aria And File</legend>
+                <form action="" method="POST" enctype="multipart/form-data">
+                    <label for="text">Wirte Something</label>
+                    <textarea name="text" id="text" cols="30" rows="10" required placeholder="start typing..."></textarea>
+                    <br>
+                    <br>
+
+                    <label for="file">Upload Resume</label>
+                    <input type="file" name="anyFile" required>
+                    <br>
+                    <br>
+
+                    <button>SUBMIT</button>
+                </form>
+            </fieldset>
+            <hr><br><br><br><br>
+
+            <fieldset style="width: 500px;" id="input-types">
+                <legend>Types of inputs</legend>
+                <form action="" method="POST" enctype="multipart/form-data">
+                    <label for="search">Google Search</label>
+                    <input type="search" name="googlesearch">
+                    <br>
+                    <br>
+
+                    <label for="date">Date</label>
+                    <input type="date" name="date">
+                    <br>
+                    <br>
+
+                    <label for="number">Number</label>
+                    <input type="number" name="number">
+                    <br>
+                    <br>
+
+                    <label for="time">time</label>
+                    <input type="time" name="time">
+                    <br>
+                    <br>
+
+                    <label for="week">week</label>
+                    <input type="week" name="week">
+                    <br>
+                    <br>
+
+                    <label for="month">month</label>
+                    <input type="month" name="month">
+                    <br>
+                    <br>
+
+                    <label for="url">url</label>
+                    <input type="url" name="rul">
+                    <br>
+                    <br>
+
+                    <label for="tel">tel</label>
+                    <input type="tel" name="tel">
+                    <br>
+                    <br>
+
+                    <label for="range">Range</label>
+                    <input type="range" name="range" min="1" max="10">
+                    <br>
+                    <br>
+
+                    <label for="color">color</label>
+                    <input type="color" name="color">
+                    <br>
+                    <br>
+
+                    <input type="submit" formnovalidate="formnovalidate" formaction="datalist.html" formmethod="post"  formtarget="_blank">
+
+
+                    <button>SUBMIT</button>
+                </form>
+            </fieldset>
+            <hr><br><br><br><br>
+            
+            NOTE : Use Alt+a to go directly <a href="https://www.google.com/search?q=Amol+Bharsakle" accesskey="a"> Amol Bharsakle </a>
+            <hr><br><br><br><br>
+
+            <p spellcheck="true" > Hello there this is Amol bharsakle and i am fom burhanpur madhya pradesh.</p><br>
+            ENTER SOME THING TO CHECK SPELL CHECK <br>
+
+            <textarea spellcheck="true"  name="splck" id="splck" cols="30" rows="10" placeholder="Start typing...">  </textarea>
+            
+
+        </div>
+
+    </div>
+    
+
+
+
+
+<br/><br/><br/>
+    <div class="foot">
+        <p>Created by <a href="mailto:amolbharsakle1@gmail.com" id="amol"> AMOL BHARSAKLE </a> &copy; 2021</p>
+    </div>
+
+</body>
+</html>

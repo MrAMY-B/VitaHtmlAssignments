@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <style>
+        .head{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        .assign-list{
+            padding: 20px;
+        }
+        .foot{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        #amol{
+          color: yellow;  
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Welcome to my Second Web Page</h1>
+        <h3>AMOL BHARSAKLE  | PRN.210544581012</h3>
+    </div>
+    <div>
+        
+        <div class="login-form">
+            <marquee behavior="inline" direction="left" > <h1 style="text-align:center;color: green;">Omline Registration Form</h1> </marquee>
+            <fieldset>
+                <legend>All feilds with <span style="color: tomato;">*</span> are mendatory</legend>
+                <form action="" method="POST">
+                    <table  cellpadding="10">
+                        <caption><h2>Registration from</h2>
+                           
+                        </caption>
+    
+                        <tbody>
+                            
+                            <tr >
+                                <td> <label for="fname">First Name</label> </td>
+                                <td> <input type="text" name="fname" placeholder="Enter here" required> </td>
+                            </tr>
+    
+                            <tr>
+                                <td> <label for="mname">Father's/Husbands Name</label> </td>
+                                <td> <input type="text" name="mname" placeholder="Enter here" required> </td>
+                            </tr>
+    
+                            <tr>
+                                <td> <label for="lname">Last Name</label> </td>
+                                <td> <input type="text" name="lname" placeholder="Enter here" required> </td>
+                            </tr>
+    
+                            <tr>
+                                <td> <label for="dob">Date Of Birth</label> </td>
+                                <td> 
+                                    <select name="dd" id="dd">
+                                        <option selected disabled>DD</option>
+                                        <option value="01">01</option>
+                                        <option value="01">02</option>
+                                        <option value="01">03</option>
+                                        <option value="01">04</option>
+                                        <option value="01">05</option>
+                                        <option value="01">06</option>
+                                        <option value="01">07</option>
+                                        <option value="01">08</option>
+                                        <option value="01">09</option>
+                                        <option value="01">10</option>
+                                        <option value="01">11</option>
+                                        <option value="01">12</option>
+                                        <option value="01">13</option>
+                                        <option value="01">14</option>
+                                        <option value="01">15</option>
+                                        <option value="01">16</option>
+                                        <option value="01">17</option>
+                                        <option value="01">18</option>
+                                        <option value="01">19</option>
+                                        <option value="01">20</option>
+                                        <option value="01">21</option>
+                                        <option value="01">22</option>
+                                        <option value="01">23</option>
+                                        <option value="01">24</option>
+                                        <option value="01">25</option>
+                                        <option value="01">26</option>
+                                        <option value="01">27</option>
+                                        <option value="01">28</option>
+                                        <option value="01">29</option>
+                                        <option value="01">30</option>
+                                        <option value="01">31</option>
+                                        
+                                    </select>
+                                    <select name="mm" id="mm">
+                                        <option selected disabled>MM</option>
+                                        <option value="01">01</option>
+                                        <option value="01">02</option>
+                                        <option value="01">03</option>
+                                        <option value="01">04</option>
+                                        <option value="01">05</option>
+                                        <option value="01">06</option>
+                                        <option value="01">07</option>
+                                        <option value="01">08</option>
+                                        <option value="01">09</option>
+                                        <option value="01">10</option>
+                                        <option value="01">11</option>
+                                        <option value="01">12</option>
+                                    </select>
+                                    <select name="yyyy" id="yyyy">
+                                        <option selected disabled>YYYY</option>
+                                        <option value="01">1995</option>
+                                        <option value="01">1996</option>
+                                        <option value="01">1997</option>
+                                        <option value="01">1998</option>
+                                        <option value="01">1999</option>
+                                        <option value="01">2000</option>
+                                        <option value="01">2001</option>
+                                        <option value="01">2002</option>
+                                        <option value="01">2003</option>
+                                        <option value="01">2004</option>
+                                        <option value="01">2005</option>
+                                        <option value="01">2006</option>
+                                        <option value="01">2007</option>
+                                        <option value="01">2008</option>
+                                        <option value="01">2009</option>
+                                        <option value="01">2010</option>
+                                        <option value="01">2011</option>
+                                        <option value="01">2012</option>
+                                        <option value="01">2013</option>
+                                        <option value="01">2014</option>
+                                        <option value="01">2015</option>
+                                    </select>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="PA">Permanenet Address</label></td>
+                                <td> <textarea name="paddress" id="pa" cols="30" rows="10" required placeholder="start typing..."></textarea> </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="PA">Contact Address</label></td>
+                                <td> <textarea name="paddress" id="pa" cols="30" rows="10" required placeholder="start typing..."></textarea> </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="city">City</label></td>
+                                <td> <input type="text" name="city" id="city" required> </td>
+                            </tr>
+
+                            <tr> 
+                                <td> <label for="state">State</label> </td> 
+                                <td> <input type="text" name="state" id="state" required> </td>
+                            </tr>
+
+                            <tr> 
+                                <td> <label for="country">Contry</label> </td> 
+                                <td> <input type="text" name="Country" id="country" required> </td>
+                            </tr>
+
+                            <tr> 
+                                <td> <label for="pc">Postal Code</label> </td> 
+                                <td> <input type="text" name="pc" id="pc" required> </td>
+                            </tr>
+
+                            <tr> 
+                                <td> <label for="cn">Contact Number</label> </td> 
+                                <td> <input type="text" name="cn" id="cn" required> </td>
+                            </tr>
+
+                            <tr> 
+                                <td> <label for="Nationality">Nationality</label> </td> 
+                                <td> <input type="text" name="Nationality" id="Nationality" required> </td>
+                            </tr>
+                            
+                            <tr> 
+                                <td> <label for="email">email</label> </td> 
+                                <td> <input type="email" name="email" id="emaol" required> </td>
+                            </tr>
+                            
+                            <tr> 
+                                <td> <label for="aemail">email</label> </td> 
+                                <td> <input type="email" name="aemail" id="aemaol" required> </td>
+                            </tr>
+                            
+                            <tr> <td colspan="2"> <h2>Coure Prederences</h2></td> </tr>
+
+                            <tr> 
+                                <td><label for="pref">Select couse for Addmisttion</label> </td> 
+                                <td> <select name="pref" id="pref">
+                                        <option selected disabled>Select any one Course</option>
+                                        <option value="pgdac">Post Graduatuin diploma</option>
+                                        <option value="pgdac">DBDA</option>
+                                        <option value="pgdac">DBDA</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+
+                    <table>
+                        <tr> <td colspan="5"> <h3>Education And Qualification</h3>   </td> </tr>
+                        <tr>
+                            <th> Qualification </th>
+                            <th>Specificastion</th>
+                            <th>Percentage</th>
+                            <td> Year of passing </td>
+                            <td> Univercity/Board </td>
+                        </tr>
+                        
+                        <tr align="center">
+                            <td> SSC </td>
+                            <td></td>
+                            <td> <input type="text" name="xperc" id="xperc"> </td>
+                            <td> <input type="text" name="xyop" id="xyop"></td>
+                            <td> <input type="text" name="xuniv" id="xuni"> </td>
+                        </tr>
+
+                        <tr align="center">
+                            <td> HSC <input type="radio" name="xii" id="xii" value="HSC"> Diploma <input type="radio" name="xii" id="xii" value="Diploma">  </td>
+                            <td> <input type="text" name="xiispec" id="xiispec"> </td>
+                            <td> <input type="text" name="xiiperc" id="xiiperc"> </td>
+                            <td> <input type="text" name="xiiyop" id="xiiyop"> </td>
+                            <td> <input type="text" name="xiiuni" id="xiiuni"> </td>
+                        </tr>
+
+                        <tr align="center">
+                            <td>
+                                <select name="graduation" id="garduation">
+                                    <option selected disabled> Graduation </option>
+                                    <option value="BE">BE</option>
+                                    <option value="B.Tech">B.Tech</option>
+                                    <option value="BCA">BCA</option>
+                                </select>
+                            </td>
+                            <td> <input type="text" name="gspec" id="gspec"> </td>
+                            <td> <input type="text" name="gperc" id="gperc"> </td>
+                            <td> <input type="text" name="gyop" id="gyop"> </td>
+                            <td> <input type="text" name="guni" id="guni"> </td>
+                        </tr>
+
+                        <tr align="center">
+                            <td>
+                                <select name="pGraduation" id="pGraduation">
+                                    <option selected disabled> P Graduation </option>
+                                    <option value="ME">ME</option>
+                                    <option value="M.Tech">M.Tech</option>
+                                    <option value="MCA">MCA</option>
+                                </select>
+                            </td>
+                            <td> <input type="text" name="pgspec" id="pgspec"> </td>
+                            <td> <input type="text" name="pgperc" id="pgperc"> </td>
+                            <td> <input type="text" name="pgyop" id="pgyop"> </td>
+                            <td> <input type="text" name="pguni" id="pguni"> </td>
+                    </table>
+                    <hr>
+                    <input type="reset" >&nbsp;&nbsp;<button>Submit</button>&nbsp;&nbsp;<input type="button" value="Close">
+                    
+                    </tr>
+                </form>
+            </fieldset>
+        </div>
+        <h2> Go to <a href="./Day2Assign-login-page.html">Login Page</a></h2>
+        
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/>
+
+        
+    </div>
+
+    <br/><br/>
+    <div class="foot">
+        <p>Created by <a href="mailto:amolbharsakle1@gmail.com" id="amol"> AMOL BHARSAKLE </a> &copy; 2021</p>
+    </div>
+</body>
+</html>

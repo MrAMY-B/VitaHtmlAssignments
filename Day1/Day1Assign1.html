@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        .assign-list{
+            padding: 20px;
+        }
+        .foot{
+            text-align: center; 
+            background-color: #282c34; 
+            padding: 20px; 
+            color: wheat;
+        }
+        #amol{
+          color: yellow;  
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1>Welcome to my First Web Page</h1>
+    </div>
+    <div class="assign-list">
+        <h1>List of Assignments are</h1>
+        <h3>
+            <ol type="1">
+                <li>
+                    Click on image  it should open bigger image in new window <a href="#ass1"> Click to see </a>
+                </li>
+                <li>
+                    Write data  in list.html <a href="#ass2"> Click to see </a>
+                </li>
+                <li>
+                    When you click on this text it should take you to another file 
+                    at that location where you have given explanation of it.
+                    <a href="#ass3"> Click to see </a>
+                </li>
+                <li>
+                    Make list of lists <a href="#ass4"> Click to see </a>
+                </li>
+                <li><a href="#ass4"> Click to see </a> </li>
+                <li>Display one photo and wite 10 lines next to image  Make list of lists <a href="#ass6"> Click to see </a>  </li>
+                <li> Create a hyperlink which will take you to the google site <a href="#ass7"> Click to see </a></li>
+                <li>create a hyperlink having list of assignement when you click respective assignement should get open in new tab <a href="#ass8">Click</a></li>
+                <li>Rewise inline tag <a href="#ass9"> Click to see </a> </li>
+            </ol>
+        </h3>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </div>
+    <div class="all-assignments">
+        <!--  FIRST   -->
+        <h1 id="ass1">1. click on image  it should open bigger image in new window </h1>
+        <a href="./images/logo.svg" target="_blank"> 
+            <img src="images/logo.svg" height="100" width="100" alt="logo">
+        </a>
+        <hr/>
+
+        <!--  SECOND   -->
+        <h1 id="ass2">2. Write data  in list.html</h1>
+        <h1>
+            <ul>
+                <li><a href="list.html#HTML" target="_blank">HTML</a></li>
+                <li><a href="list.html#HTTP" target="_blank">HTTP</a></li>
+                <li><a href="list.html#TCP" target="_blank">TCP</a></li>
+            </ul>
+        </h1>
+        <hr/>
+
+        <!--  THIRED   -->
+        <h1 id="ass3">
+                3. When you click on this text it should take you to another file 
+                at that location where you have given explanation of it.
+                <a href="list.html#Ass3"> Go </a>
+        </h1>
+        <hr/>
+
+        <!--  FOURTH   -->
+        <h1 id="ass4" >
+            4.Make list of lists
+        </h1>
+
+        <h3>
+            <ol type="1">
+                <li>
+                    Section I
+                    <ol type="1">
+                        <li>DATA</li>
+                        <li>DATA</li>
+                        <li>DATA</li>
+                    </ol>
+                </li>
+                <li>
+                    Section II
+                    <ol type="1">
+                        <li>DATA</li>
+                        <li>DATA</li>
+                        <li>DATA</li>
+                    </ol>
+                </li>
+                <li>
+                    Section III
+                    <ol type="1">
+                        <li>
+                            Name of friends
+                            <ol type="a">
+                                <li>RAJ</li>
+                                <li>MONA</li>
+                            </ol>
+                        </li>
+                        <li>
+                            Name of fruits
+                            <ol type="a">
+                                <li>APPLE</li>
+                                <li>MANGO</li>
+                            </ol>
+                        </li>
+                        
+                    </ol>
+                </li>
+                
+                
+            </ol>
+        </h3>
+        <hr/>
+
+        <!--  SIXTH   -->
+        <h1 id="ass6">
+            6. Display any photo and write 10 line next to image
+        </h1>
+        <img src="./images/logo.svg" hspace="50" alt="LOGO" height="200" width="200" align="left">
+        <h4>
+            <ol>
+                <li>Hello this is line number one</li>
+                <li>Hello this is line number two</li>
+                <li>Hello this is line number three</li>
+                <li>Hello this is line number four</li>
+                <li>Hello this is line number five</li>
+                <li>Hello this is line number six</li>
+                <li>Hello this is line number seven</li>
+                <li>Hello this is line number eight</li>
+                <li>Hello this is line number nine</li>
+                <li>Hello this is line number ten</li>
+            </ol>
+        </h4>
+        <br/>
+        <hr/>
+
+        <!--  SECENTH   -->
+        <h1 id="ass7">7. Create a hyperlink which will take you to the google site</h1>
+        <h2><a href="www.google.com">click here</a></h2>
+        <br/><hr/>
+
+        <!--  EIGHTH   -->
+        <h1 id="ass8">
+            8. create a hyperlink having list of assignement when you click 
+            respective assignement should get open in new tab
+        </h1>
+        <h1>
+            <a href="">click here</a>
+        </h1>
+        <br/><hr/>
+
+        <!--  NINTH   -->
+        <h1 id="ass9">
+            9. rewise inline tag
+            <br>
+            DONE
+        </h1>
+
+    </div>
+    <br/><br/><br/>
+    <div class="foot">
+        <p>All Rigths are Reserved to <a href="mailto:amolbharsakle1@gmail.com" id="amol"> AMOL BHARSAKLE </a> &copy; 2021</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light px-5">
+        <a class="navbar-brand text-danger" href="#"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+              </svg>
+            BookWorm
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#start">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#books">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foot">Contect-us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+<div class="page-content" id="books">
+    <div class="container my-5">
+        <h1 class="text-center m-4">All Books</h1>
+        <div class="row">
+            <div class="col-sm-4 px-5">
+                <div class="card bg-white">
+                    <div class="card-body bg-light">
+                    <h4 class="card-title">Java</h4>
+                    </div>
+                    <img src="./image/1f4da.png" class="mx-auto" width="80%" alt="">
+                    <div class="card-body bg-light">
+                    <p class="card-text"> <b><del>Rs.1599.00</del> Rs.1099.00</b> </p>
+                    <a href="#" class="card-link btn btn-sm btn-outline-primary">Read</a>
+                    <a href="#" class="card-link btn btn-sm btn-outline-danger">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 px-5">
+                <div class="card">
+                    <div class="card-body bg-light">
+                    <h4 class="card-title">Javascript</h4>
+                    </div>
+                    <img src="./image/1f4da.png" class="mx-auto" width="80%" alt="">
+                    <div class="card-body bg-light">
+                    <p class="card-text"><b> <del>Rs.999.00</del> Rs.499.00</b></p>
+                    <a href="#" class="card-link btn btn-sm btn-outline-primary">Read</a>
+                    <a href="#" class="card-link btn btn-sm btn-outline-danger">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 px-5">
+                <div class="card">
+                  <div class="card-body bg-light">
+                    <h4 class="card-title">Ptyhon</h4>
+                  </div>
+                  <img src="./image/1f4da.png" class="mx-auto" width="80%" alt="">
+                  <div class="card-body bg-light">
+                    <p class="card-text"><b><del>Rs.1299.00</del>  Rs.899.00</b> </p>
+                    <a href="#" class="card-link btn btn-sm btn-outline-primary">Read</a>
+                    <a href="#" class="card-link btn btn-sm btn-outline-danger">Buy</a>
+                  </div>
+                </div></div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="container-fluid bg-dark text-light text-center p-5 " id="foot">
+        <div class="row ">
+            <div class="col-sm-3">
+                <h4>Our Team</h4>
+                <p class="m-0">Aman Bhardwaj</p>
+                <p class="m-0">Amol Bharsakle </p>
+                <p class="m-0">Nishchay Varma</p>
+                <p class="m-0">Pratik Vishvakarma</p>
+                <p class="m-0">Sarvesh Mishra</p>
+               
+            </div>
+            <div class="col-sm-6 align-self-end ">
+                <h1 class="">BOOKWORM.COM</h1>
+            </div>
+            <div class="col-sm-3">
+                <h4>Used Technologies</h4>
+                <p class="m-0">HTML</p>
+                <p class="m-0">CSS</p>
+                <p class="m-0">BOOTSTRAP</p>
+                <p class="m-0">JAVA</p>
+                <p class="m-0">MYSQL</p>
+                
+            </div>
+        </div>
+        <div class="container text-center">
+            <h6>Created by <a href="https://mramy-b.github.io/Angular/">AMOL BHARSAKLE</a> | &copy; 2021</h6>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
